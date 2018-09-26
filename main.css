@@ -1,20 +1,23 @@
 body,html{
   padding:0;
   margin:0;
+  background-color: #ffffff; 
 }
+
 *{
   font-size: 20px;
   font-family: 'Lucida Sans'; 
   box-sizing: border-box; 
-
 }
+
 /*backgroudcolor for nav*/
 
 nav{
-  background-color: #5a5959;
+  background-color: #027878;
 }
+
 nav a{
-  color: #ffffff;
+  color: #ffffff; 
   text-decoration: none;
   display: inline-block;
   padding: 10px;   
@@ -24,6 +27,7 @@ nav a{
   margin-left: 25px;
   font-family:'Chicle'; 
   font-size: 40px; 
+  color: #FDB632;   
 }
 
 .navbar-right{
@@ -35,16 +39,17 @@ nav a{
 .container {
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  color: #FDB632; 
 }
 
 .jumbotron{
+  margin-top: 5%; 
   width: 100%;
   height: 200px;
   background-position: bottom;
   background-size:cover;
   background-repeat: no-repeat;
-  background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=352d3cdaa50b65c4adf76c1d4dd4ca7e&auto=format&fit=crop&w=750&q=80');
+  background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=352d3cdaa50b65c4adf76c1d4dd4ca7e&auto=format&fit=crop&w=750&q=80'); 
 }
 
 #content-header{
@@ -58,8 +63,11 @@ nav a{
   margin: 1%;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #FDB632;
+  background-color: #027878;
+  margin-top: 5%; 
 }
+
 .thumbnail {
   height: auto;
   width: 98%;
@@ -67,16 +75,17 @@ nav a{
   margin-top: 2px;
   }
 
-  #clear-fix {
+#clear-fix {
     clear: both;
     content: "";
     display: grid;
-  }
+}
+
 footer {
-  background-color: #5a5959;
+  background-color: #027878;
   color: #ffffff;
   margin-bottom: 0;
-  margin-top: 40px;
+  margin-top: 2%;
 }
 
 footer p {
