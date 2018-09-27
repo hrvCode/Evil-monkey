@@ -1,13 +1,13 @@
-body,html{
+ body,html{
   padding:0;
   margin:0;
-  background-color: #ffffff; 
+  background-color: #ffffff;
 }
 
 *{
   font-size: 20px;
-  font-family: 'Lucida Sans'; 
-  box-sizing: border-box; 
+  font-family: 'Lucida Sans';
+  box-sizing: border-box;
 }
 
 /*backgroudcolor for nav*/
@@ -17,39 +17,39 @@ nav{
 }
 
 nav a{
-  color: #ffffff; 
+  color: #ffffff;
   text-decoration: none;
   display: inline-block;
-  padding: 10px;   
+  padding: 10px;
 }
 
 #logo{
   margin-left: 25px;
-  font-family:'Chicle'; 
-  font-size: 40px; 
-  color: #FDB632;   
+  font-family:'Chicle';
+  font-size: 40px;
+  color: #FDB632;
 }
 
 .navbar-right{
   padding-right: 25px;
   float: right;
-  margin-top:12px; 
+  margin-top:12px;
 }
 
 .container {
   width: 80%;
   margin: auto;
-  color: #FDB632; 
+  color: #FDB632;
 }
 
 .jumbotron{
-  margin-top: 5%; 
+  margin-top: 5%;
   width: 100%;
   height: 200px;
   background-position: bottom;
   background-size:cover;
   background-repeat: no-repeat;
-  background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=352d3cdaa50b65c4adf76c1d4dd4ca7e&auto=format&fit=crop&w=750&q=80'); 
+  background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=352d3cdaa50b65c4adf76c1d4dd4ca7e&auto=format&fit=crop&w=750&q=80');
 }
 
 #content-header{
@@ -65,7 +65,7 @@ nav a{
   text-decoration: none;
   color: #FDB632;
   background-color: #027878;
-  margin-top: 5%; 
+  margin-top: 5%;
 }
 
 .thumbnail {
