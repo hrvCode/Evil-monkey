@@ -61,21 +61,6 @@ body,html{
   display: block;
 }
 
-  #info{
-    margin-left: 10%;
-    width: 49%;
-    text-align: center;
-    background-color:#fafafa;
-    float: left;
-  }
-
-  #spec{
-    margin-left: 2%;
-    padding-left:10px;
-    width: 24%;
-    background-color: #fafafa;
-    display: inline-block;
-  }
 
   span{
     text-align: center;
@@ -83,19 +68,7 @@ body,html{
   }
 
   #kurser{
-    text-align: center;
-    margin-left: 60px;
-  }
-
-  #form{
-    width: 3cm;
-    height: 3cm;
-    background-color: #fafafa;
-    border: 1px solid black;
-    margin-left: 10%;
-    width: 49%;
-    margin-top: -31%; 
-    height: 8cm;
+    margin-left: 35%;
   }
   
    
@@ -113,3 +86,35 @@ body,html{
     padding-top: 10px;  
   }
   
+
+  .grid{
+  display: grid;
+  grid-template-columns: repeat(20, 5%);
+  grid-template-rows:  repeat(20, 5%);
+  width: 75%;
+  height: 600px;
+  margin-left: 10%;
+  margin-top: 1cm;
+  }
+
+   #spec{
+    grid-column:15/21;
+    grid-row: 1/21;
+    background-color: #fafafa;
+    font-size: 15px;
+
+  } 
+
+  #info {
+    grid-column:1/14;
+    grid-row: 1/10;
+    text-align: left;
+    background-color:#fafafa;
+    text-align: center;
+  }
+  
+  #form {
+    grid-column:1/14;
+    grid-row: 11/21;
+    background-color:#fafafa;
+  }
