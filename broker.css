@@ -1,48 +1,14 @@
-body,html{
-    padding:0;
-    margin:0;
-   }
-
-  *{
-    font-size: 20px;
-    font-family: 'Lucida Sans';
-    box-sizing: border-box;
-  }
-  /*backgroudcolor for nav*/
-  nav{
-    background-color: #027878;
-    margin-top: 5px;
-  }
-  nav a{
-    color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-  }
-
-  #logo{
-    margin-left: 25px;
-    font-family:'Chicle';
-    font-size: 40px;
-    color: #FDB632;
-  }
-
-  .navbar-right{
-    padding-right: 25px;
-    float: right;
-    margin-top: 12px;
-  }
-
-  .container {
+.container {
     width: 80%;
     margin: auto;
     margin-top: 20px;
   }
 
-  .jumbotron{
+  .showCase{
     width: 75%;
     height: 400px;
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2cm;
     background-position: bottom;
     background-size:cover;
@@ -59,20 +25,26 @@ body,html{
 
 .broker-content{
   display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
   #info{
-    margin-left: 10%;
+    margin-left: 11%;
+    margin-bottom: 10px;
     width: 49%;
     text-align: center;
     background-color:#fafafa;
     float: left;
+    
   }
 
   #spec{
-    margin-left: 2%;
+    margin-left: 4%; 
+    margin-right: 0;
     padding-left:10px;
-    width: 24%;
+    width: 25%;
     background-color: #fafafa;
     display: inline-block;
   }
@@ -87,28 +59,49 @@ body,html{
     margin-left: 60px;
   }
 
-  #form{
-    width: 3cm;
-    height: 3cm;
-    background-color: #fafafa;
-    border: 1px solid black;
-    margin-left: 10%;
-    width: 49%;
-    margin-top: -31%;
-    height: 8cm;
-  }
+  form{
+	  background-color: #fafafa;;
+	  width: 49%;
+    padding-top: 5px;
+    padding-bottom: 2%;
+    margin-left: 11%;
+    margin-top: -30%;
+    display: grid;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 28%;
+    margin-right: 50%;
+}
+form input{
+	border-radius: 3px;
+	width: 100%;
+  height: 20px;
+  margin-top:10px;
+  margin-bottom:10px;
+  clear: both;
+}
+form .interest_input {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  clear: both;
+}
+
+form label {
+    color: #FDB632;
+    display: block;
+    margin-top: 15px;
+}
+
+ input[type=submit] {
+  height: 30px;
+  width : 160px; 
+  display: inline-block;
+  margin-bottom: 0;  
+ }
 
 
-  footer{
-    background-color: #5a5959;
-    color: #ffffff;
-    margin-bottom: 0cm;
-    margin-top: 50px;
-    height: 1cm;
-  }
-
-  footer p{
-    font-size: 12px;
-    margin: 0 auto;
-    padding-top: 10px;
-  }
+  
