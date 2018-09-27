@@ -1,38 +1,49 @@
-body,html{
+ body,html{
   padding:0;
   margin:0;
+  background-color: #ffffff;
 }
+
 *{
-  font-size: 16px;
-  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-family: 'Lucida Sans';
   box-sizing: border-box;
 }
+
 /*backgroudcolor for nav*/
+
 nav{
-  background-color: #5a5959;
-  margin-top: 5px;
+  background-color: #027878;
 }
+
 nav a{
   color: #ffffff;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
 }
+
 #logo{
   margin-left: 25px;
+  font-family:'Chicle';
+  font-size: 40px;
+  color: #FDB632;
 }
+
 .navbar-right{
   padding-right: 25px;
   float: right;
+  margin-top:12px;
 }
 
 .container {
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  /* color: #FDB632; */
 }
 
 .jumbotron{
+  margin-top: 5%;
   width: 100%;
   height: 200px;
   background-position: bottom;
@@ -44,36 +55,68 @@ nav a{
 #content-header{
   text-align: center;
 }
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .box {
-  float:left;
-  width: 31%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
   border: 1px solid black;
   margin: 1%;
-  text-align: center;
   text-decoration: none;
-  color: black;
+  color: #FDB632;
+  background-color: #027878;
+  margin-top: 5%;
+}
+.box-header{
+  width: 35%;
+  height: auto;
+  background: #f3f3f3;
+}
+.box-header h2{
+  text-align: center;
 }
 .thumbnail {
   height: auto;
-  width: 98%;
-  clear:both;
-  margin-top: 2px;
+  width: calc(100% - 10px);
+  margin: 5px;
   }
-
-  #clear-fix {
+.text-content{
+  align-self: baseline;
+  padding: 20px;
+  width: 50%;
+}
+#clear-fix {
     clear: both;
     content: "";
     display: grid;
-  }
+}
+
 footer {
-  background-color: #5a5959;
+  background-color: #027878;
   color: #ffffff;
   margin-bottom: 0;
-  margin-top: 40px;
+  margin-top: 2%;
 }
 
 footer p {
   font-size: 12px;
   margin-bottom: 0;
+}
+@media screen and (max-width: 700px){
+  .box{
+      flex-direction: column;
+  }
+  .text-content{
+    width: 100%;
+  }
+  .box-header{
+    width: 100%;
+  }
 }
