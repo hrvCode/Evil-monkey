@@ -83,7 +83,7 @@ nav a{
   padding: 10px;
   max-width: 95%;
   height: auto;
-  }
+}
 
 #clear-fix {
     clear: both;
@@ -105,8 +105,14 @@ footer p {
 @media screen and (max-width: 900px){
   .box{
     flex-direction: column;
+    width:100%;
   }
   .box-content{
     padding: 10px;
+  }
+}
+@media screen and (max-width: 600px){
+  .container{
+    width: 100%;
   }
 }
