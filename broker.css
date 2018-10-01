@@ -87,6 +87,7 @@ body,html{
   height: 600px;
   margin-left: 10%;
   margin-top: 1cm;
+  
   }
 
    #spec{
@@ -95,23 +96,33 @@ body,html{
     background-color: #fafafa;
     font-size: 15px;
     padding-left: 5%;
+    margin:0;
 
   } 
 
   #info {
     grid-column:1/14;
-    grid-row: 1/10;
+    grid-row: 1/9;
     text-align: left;
     background-color:#fafafa;
     text-align: center;
+    margin:0;
     
   }
   
+  #thanks {
+    grid-column:1/14;
+    grid-row: 10/21;
+    background-color:#fafafa;
+    visibility: hidden;
+  }
+
   #form {
     grid-column:1/14;
     grid-row: 10/21;
     background-color:#fafafa;
     margin: 0 auto;
+    visibility: visible;
   }
 
 .form input[type="text"],
