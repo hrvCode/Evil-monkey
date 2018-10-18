@@ -59,6 +59,7 @@ body,html{
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .broker-content{
   display: block;
   width: 100%;
@@ -157,6 +158,13 @@ form label {
   
 >>>>>>> dev-jonte
   
+=======
+
+  span{
+    text-align: center;
+    font-weight: bold;
+  }  
+>>>>>>> fd8cbb3bda25e005017a3e3e33c51a952fe634b4
    
   footer {
     background-color: #5a5959;
@@ -170,6 +178,7 @@ form label {
     margin-bottom: 0;
   }
   
+/* Grid start here */
 
   .grid{
   display: grid;
@@ -179,6 +188,7 @@ form label {
   height: 600px;
   margin-left: 10%;
   margin-top: 1cm;
+  
   }
 
    #spec{
@@ -186,19 +196,109 @@ form label {
     grid-row: 1/21;
     background-color: #fafafa;
     font-size: 15px;
+    padding-left: 5%;
+    margin:0;
 
   } 
 
   #info {
     grid-column:1/14;
-    grid-row: 1/10;
+    grid-row: 1/9;
     text-align: left;
     background-color:#fafafa;
     text-align: center;
+    margin:0;
+    
   }
   
+  #thanks {
+    grid-column:1/14;
+    grid-row: 10/21;
+    background-color:#fafafa;
+    visibility: hidden;
+  }
+
   #form {
     grid-column:1/14;
-    grid-row: 11/21;
+    grid-row: 10/21;
     background-color:#fafafa;
+<<<<<<< HEAD
   }
+=======
+    margin: 0 auto;
+    visibility: visible;
+  }
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea
+{
+    outline: none;
+    width: 70%;
+    height: 1cm;
+    background: #fff;
+    margin-bottom: 1%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus{
+    box-shadow: 0 0 5px #027878;
+    padding: 3%;
+    border: 1px solid #027878; 
+}
+
+.form textarea{
+  height: 2cm;
+
+}
+.form input[type="text"]{
+  margin-top: 5%;
+}
+#select{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 15px;
+  width: 70%;
+  height: 1cm;
+  outline: none;
+  margin-bottom: 1%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  background: #fff; 
+  margin-left: 10%;
+}
+
+button {
+  margin-left:10%;
+  margin-top: 3%;
+  width: 70%;
+  border-radius: 100px;
+  padding: 10px 50px;
+  background: #fff; 
+  color: #555;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  border: 2px solid #027878;
+}
+
+
+
+
+
+
+
+>>>>>>> fd8cbb3bda25e005017a3e3e33c51a952fe634b4

@@ -21,10 +21,14 @@ nav{
 
 nav a{
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #FDB632;
 =======
   color: #ffffff;
 >>>>>>> dev-jonte
+=======
+  color: #ffffff;
+>>>>>>> fd8cbb3bda25e005017a3e3e33c51a952fe634b4
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -47,10 +51,14 @@ nav a{
   width: 80%;
   margin: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #FDB632;
 =======
   /* color: #FDB632; */
 >>>>>>> dev-jonte
+=======
+  color: #FDB632;
+>>>>>>> fd8cbb3bda25e005017a3e3e33c51a952fe634b4
 }
 
 .jumbotron{
@@ -78,15 +86,24 @@ nav a{
 .box {
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
   align-items: center;
   justify-content: flex-start;
   width: 100%;
   height: auto;
   margin: 1%;
+=======
+  justify-content:space-around;
+  width: 75%;
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+>>>>>>> fd8cbb3bda25e005017a3e3e33c51a952fe634b4
   text-decoration: none;
 <<<<<<< HEAD
   color: #FDB632;
   background-color: #027878;
+<<<<<<< HEAD
   /* margin-top: 5%; */
 =======
   color: #000000;
@@ -101,9 +118,25 @@ nav a{
 .box-header h2{
   text-align: center;
 >>>>>>> dev-jonte
+=======
+  margin-top: 5%;
+}
+.box-img{
+  padding-top: 8px;
+  min-width: 300px;
+}
+.box-header{
+  margin: 10px 25px;
+}
+.box-content{
+  text-align: left;
+>>>>>>> fd8cbb3bda25e005017a3e3e33c51a952fe634b4
 }
 .thumbnail {
+  padding: 10px;
+  max-width: 95%;
   height: auto;
+<<<<<<< HEAD
   width: calc(100% - 10px);
   margin: 5px;
   }
@@ -115,6 +148,10 @@ nav a{
   align-self: flex-start;
   width: 50%;
 }
+=======
+}
+
+>>>>>>> fd8cbb3bda25e005017a3e3e33c51a952fe634b4
 #clear-fix {
     clear: both;
     content: "";
@@ -132,6 +169,7 @@ footer p {
   font-size: 12px;
   margin-bottom: 0;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 700px){
   .box{
       flex-direction: column;
@@ -142,6 +180,19 @@ footer p {
     width: 100%;
   }
   .box-header{
+=======
+@media screen and (max-width: 900px){
+  .box{
+    flex-direction: column;
+    width:100%;
+  }
+  .box-content{
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 600px){
+  .container{
+>>>>>>> fd8cbb3bda25e005017a3e3e33c51a952fe634b4
     width: 100%;
   }
 }
