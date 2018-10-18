@@ -1,18 +1,53 @@
+<<<<<<< HEAD
  body, html{
+=======
+body,html{
+>>>>>>> dev-jonte
     padding:0;
     margin:0;
     background-color: #ffffff;
   }
+<<<<<<< HEAD
  
   /*backgroudcolor for nav*/
   nav{
     background-color: #027878;
   }
 
+=======
+  *{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+  }
+  /*backgroudcolor for nav*/
+  nav{
+    background-color: #5a5959;
+    margin-top: 5px;
+  }
+  nav a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  #logo{
+    margin-left: 25px;
+  }
+  .navbar-right{
+    padding-right: 25px;
+    float: right;
+  }
+  
+>>>>>>> dev-jonte
   .container {
     width: 80%;
     margin: auto;
     margin-top: 20px;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> dev-jonte
   }
 
   .showCase{
@@ -33,4 +68,26 @@
   #apply{
     text-align: center;
     align-items: center;
+<<<<<<< HEAD
+=======
+    margin-left: 48%;
+  }
+
+
+  
+  
+  
+  
+   
+  footer {
+    background-color: #5a5959;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 12px;
+    margin-bottom: 0;
+>>>>>>> dev-jonte
   }

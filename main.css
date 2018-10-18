@@ -20,7 +20,11 @@ nav{
 }
 
 nav a{
+<<<<<<< HEAD
   color: #FDB632;
+=======
+  color: #ffffff;
+>>>>>>> dev-jonte
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -42,7 +46,11 @@ nav a{
 .container {
   width: 80%;
   margin: auto;
+<<<<<<< HEAD
   color: #FDB632;
+=======
+  /* color: #FDB632; */
+>>>>>>> dev-jonte
 }
 
 .jumbotron{
@@ -62,26 +70,51 @@ nav a{
   text-transform: uppercase;
   font-weight: 700;
 }
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .box {
-  float:left;
-  width: 31%;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
   margin: 1%;
-  text-align: center;
   text-decoration: none;
+<<<<<<< HEAD
   color: #FDB632;
   background-color: #027878;
   /* margin-top: 5%; */
+=======
+  color: #000000;
+  margin-top: 5%;
+  box-shadow: 2px 2px 10px #888888;
 }
-
+.box-header{
+  width: 45%;
+  height: auto;
+  background: #f9f9f9;
+}
+.box-header h2{
+  text-align: center;
+>>>>>>> dev-jonte
+}
 .thumbnail {
   height: auto;
-  width: 98%;
-  clear:both;
-  margin-top: 2px;
+  width: calc(100% - 10px);
+  margin: 5px;
   }
-
+.text-content{
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  border-left: 3px solid rgba(0,0,0,0.5);
+  align-self: flex-start;
+  width: 50%;
+}
 #clear-fix {
     clear: both;
     content: "";
@@ -98,4 +131,17 @@ footer {
 footer p {
   font-size: 12px;
   margin-bottom: 0;
+}
+@media screen and (max-width: 700px){
+  .box{
+      flex-direction: column;
+  }
+  .text-content{
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+  .box-header{
+    width: 100%;
+  }
 }
