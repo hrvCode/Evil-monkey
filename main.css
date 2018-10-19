@@ -1,27 +1,26 @@
- body,html{
-  padding:0;
-  margin:0;
-  background-color: #ffffff;
+body,html{
+ padding:0;
+ margin:0;
+ background-color: #ffffff;
 }
 
 *{
-  font-size: 20px;
-  font-family: 'Lucida Sans';
-  box-sizing: border-box;
+ font-size: 20px;
+ font-family: 'Lucida Sans';
+ box-sizing: border-box;
 }
 
 /* JUMOB */
 
-
 .jumbotron {
+  grid-column: 2/4;
   width:100%;
   height: 72vh;
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
  }
-
  #nav {
    width: 100%;
+   grid-column: 1/5;
    margin:auto;
    margin-top:0;
    margin-bottom: 0;
@@ -29,7 +28,6 @@
    height: 70px;
    padding-right: 5%;
    padding-left: 5%;
-   grid-column: 1 / 7;
    overflow: hidden;
  }
 
@@ -48,6 +46,7 @@
   #nav .floatright {
     float: right;
   }
+=======
 
 /* Change the color of links on hover */
 #nav a:hover {
@@ -64,10 +63,10 @@
   background-size: cover;
 }
  
-.container {
+.jumbo-container {
   text-align: center;
-  grid-column: 1 / 7;
-   
+  grid-column: 1 / 5;
+  
    }
 
 
@@ -109,4 +108,74 @@
 .btn:hover {
   background-color: #008CBA;
   color: white
+}
+ display: inline-grid;
+ grid-template-columns: 10% 60% 20%;
+ grid-template-rows: auto;
+ width: 100%;
+ margin: auto;
+ grid-column-gap: 20px;
+ grid-row-gap: 20px;
+ /* color: #FDB632; */
+}
+
+
+.main-container{
+ grid-row: 2;
+ width: auto;
+ grid-column: 2/3;
+ background: #f3f3f3;
+ height:auto;
+}
+.box{
+ width: 30%;
+ height:400px;
+ background: red;
+}
+.news{
+ width: 500px;
+ border: 1px solid grey;
+ margin: 10px 0;
+ margin-left: 10px;
+}
+.side-content{
+ background: #f3f3f3;
+ grid-row: 2;
+ grid-column: 3;
+ width: auto;
+ height: 300px;
+}
+
+.interview{
+ grid-column: 2/3;
+ height: auto;
+ grid-row:3;
+ background: yellow;
+}
+.interview h3{
+ margin-left: 10px;
+}
+.flex-content{
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-between;
+ margin: 10px;
+}
+.box-img{
+ width: 100%;
+ height: 40%;
+ background: white;
+}
+.box-content{
+ width: 100%;
+ height: 60%;
+ background: lightgrey;
+ padding: 10px;
+}
+footer{
+ margin-top: 50;
+ grid-row: 4;
+ grid-column: 1/5;
+ height: 70px;
+ background: grey;
 }
