@@ -47,7 +47,6 @@ body,html{
   width:100%;
   height: 72vh;
   display: grid;
-  width: 80%;
   margin:auto;
 }
 
@@ -64,12 +63,9 @@ body,html{
 
 .jumbo-container {
   text-align: center;
-<<<<<<< HEAD
   grid-column: 2 / 4;
-=======
   grid-column: 1 / 5;
   margin-top:6%;
->>>>>>> 6e998d160fa2958b4f0546ae71c3ff212db2570c
   }
 
 
