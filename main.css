@@ -75,8 +75,9 @@
 
  .jumbotron h1 {
    font-size: 50px;
-   
- }
+}
+
+/* Button */
 
  .btn {
   
@@ -92,7 +93,7 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
   padding: 16px 32px;
