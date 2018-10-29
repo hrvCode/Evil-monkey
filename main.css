@@ -121,26 +121,67 @@ body,html{
 
 
 .main-container{
- grid-row: 2;
- width: auto;
- grid-column: 2/3;
- background: #f3f3f3;
- height:auto;
+  grid-column: 2/3;
+  background: #f3f3f3;
 }
 .box{
  width: 30%;
  height:400px;
  background: red;
 }
-.news{
- width: 500px;
- border: 1px solid grey;
- margin: 10px 0;
- margin-left: 10px;
+
+.newsflex {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.read {
+  position: relative;
+  width: 25%;
+  max-width: 400px;
+  min-width: 200px;
+  margin: auto;
 }
 
+.read img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  margin-left: 0;
+  position: static;
+  opacity: 0.7;
+}
+
+.read button {
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+}
+
+.news{
+  width: 64%;
+  margin: auto;
+
+}
 .news p {
   font-size: 15px;
+}
+.news img{
+  width: 2cm;
+  height: 2cm;
+}
+.main-container button{
+  float:right;
 }
 .side-content{
  background: #b7f7e1;
