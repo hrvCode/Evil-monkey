@@ -2,16 +2,21 @@ body,html{
  padding:0;
  margin:0;
  background-color: #ffffff;
- 
 }
 
 *{
  font-size: 20px;
+ color: #454545;
  /* font-family: 'Lucida Sans'; */
  box-sizing: border-box;
  font-family: 'Crimson Text', serif;
 }
 
+.flex-col{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content:space-evenly;
+}
 
 .nav {
   width: 100%;
@@ -33,7 +38,7 @@ body,html{
   float: left;
   font-family: 'Fredoka One', cursive;
   font-size: 31px;
-  
+
  }
 
 .nav .floatright {
@@ -75,9 +80,6 @@ body,html{
   margin-top:6%;
   }
 
-
-
-
  .jumbotron h1 {
    font-size: 50px;
 }
@@ -85,10 +87,9 @@ body,html{
 /* Button */
 
  .btn {
-
   color: black;
   text-align: center;
-  width: 130px;
+  width: auto;
   height: 40px;
   border: 2px solid #0099CC;
   border-radius: 70px;
@@ -103,8 +104,6 @@ body,html{
   cursor: pointer;
   padding: 16px 32px;
   line-height:50%;
-
-
   background-color:transparent;
   font-family: 'Roboto', sans-serif;
 
@@ -114,6 +113,10 @@ body,html{
 .btn:hover {
   background-color: #008CBA;
   color: white
+}
+.btn-small{
+  padding: 10px;
+  height: auto;
 }
 .container{
  display: inline-grid;
@@ -137,8 +140,7 @@ body,html{
 
 .newsflex {
   display: flex;
-  text-align: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 .read {
   position: relative;
@@ -182,7 +184,7 @@ body,html{
 
 }
 .news p {
-  font-size: 15px;
+  font-size: 16px;
 }
 .news img{
   width: 2cm;
@@ -197,14 +199,55 @@ body,html{
  grid-column: 3;
  width: auto;
  height: 300px;
+ font-family: sans-serif;
 }
-
+.side-content *{
+     font-family: sans-serif;
+     font-weight: 200;
+}
+.side-wrap{
+  margin: 10px;
+}
+.side-content h2{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+   font-family: sans-serif;
+}
 ul, li {
   list-style: none;
   margin:0;
-  padding: 1%;
+  padding:0;
 }
-
+ul li {
+  padding: 0.2em 0;
+}
+ul li a{
+  text-decoration: none;
+}
+ul li a:hover{
+  color: #101010;
+}
+.side-wrap form{
+  margin:0;
+  padding:0;
+}
+.side-wrap input{
+  box-shadow: 1px 2px 3px solid #252525;
+  background: #ffffff;
+  padding-left: 5px;
+  border: 1px solid #008CBA;
+  height: 1.5rem;
+  max-width: 100%;
+}
+.side-wrap input:hover{
+  background: #eeeeee;
+  outline-color: #008CBA;
+}
+.side-wrap button{
+  margin-top: 1em;
+}
 .interview{
  grid-column: 2/3;
  height: auto;
