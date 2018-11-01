@@ -132,12 +132,12 @@ body,html{
 .box{
  width: 30%;
  height:400px;
- background: red;
+ 
 }
 
 .newsflex {
   display: flex;
-  text-align: center;
+  text-align: left;
   flex-wrap: wrap;
 }
 .read {
@@ -207,7 +207,7 @@ ul, li {
 
 .interview{
  grid-column: 2/3;
- height: auto;
+ height: 550px;
  grid-row:3;
  background: #f3f3f3;
 }
