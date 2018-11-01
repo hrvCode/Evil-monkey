@@ -136,12 +136,17 @@ body,html{
 .box{
  width: 30%;
  height:400px;
- background: red;
+ 
 }
 
 .newsflex {
   display: flex;
+<<<<<<< HEAD
+  text-align: left;
+  flex-wrap: wrap;
+=======
   flex-flow: row wrap;
+>>>>>>> ea972e9a563280c8db0a1f8b3de9f840b1c5d606
 }
 .read {
   position: relative;
@@ -251,7 +256,7 @@ ul li a:hover{
 }
 .interview{
  grid-column: 2/3;
- height: auto;
+ height: 550px;
  grid-row:3;
  background: #f3f3f3;
 }
